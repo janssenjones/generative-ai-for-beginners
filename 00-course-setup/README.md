@@ -59,7 +59,6 @@ You can replace `<environment-name>` with the name of your conda environment, an
 
 Now that you've hopefully created a *environment.yml* file, you can create a conda environment with the following command:
 
-
 ```bash
 conda env create --name ai4beg --file .devcontainer/environment.yml
 conda activate ai4beg
@@ -73,7 +72,7 @@ Probably the best way to use the curriculum is to open it in [Visual Studio Code
 
 > **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you to install Python extensions. You would also have to install miniconda as described above.
 
-> **Note**: If VS Code suggests you to re-open the repository in container, you need to decline this to use local Python installation. 
+> **Note**: If VS Code suggests you to re-open the repository in container, you need to decline this to use local Python installation.
 
 ### Using Jupyter in the Browser
 
